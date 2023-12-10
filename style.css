@@ -1,0 +1,61 @@
+/* Add your custom styles here */
+body {
+    background-color: #212529;
+    color: #fff;
+}
+
+h3, h2 {
+    color: hsl(120, 40%, 39%);
+}
+
+#footer{
+    color: hsl(120, 40%, 39%);
+    font-size: 1.2em;
+}
+
+.logo {
+    max-width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navbar {
+    background-color: #343a40;
+    border-top: 2px solid hsl(120, 40%, 39%);
+    border-bottom: 1px solid  hsl(120, 40%, 39%);
+    margin-bottom: 2em;
+}
+
+.nav-link {
+    color: hsl(120, 40%, 39%);
+}
+.about-img {
+    border: 2px solid hsl(120, 40%, 39%);
+}
+
+.contact-img {
+    border: 2px solid hsl(120, 40%, 39%);
+}
+
+.card {
+    border: 2px solid hsl(120, 40%, 39%);
+    margin-bottom:1rem;
+}
+
+.section-divider {
+    border-top: 1px solid hsl(120, 40%, 39%);
+    margin: 2em 0;
+}
+.social-links{
+    color: hsl(120, 40%, 39%);
+    font-size: 1.5em;
+}
+.my-contacts{
+    color: hsl(120, 40%, 39%);
+}
+
+.btn {
+    @media(max-width: 768px){
+        margin-bottom: 1em;
+    }
+}
