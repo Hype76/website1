@@ -15,8 +15,7 @@ h3, h2 {
 
 .logo {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 .navbar {
     background-color: #343a40;
